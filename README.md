@@ -40,7 +40,6 @@ A estrutura do projeto segue os princípios de Clean Architecture, garantindo qu
 No arquivo `application.properties`, configure suas credenciais do MySQL:
 
 ```
-properties:
 spring.datasource.url=your_url
 spring.datasource.username=your_username
 spring.datasource.password=your_password
