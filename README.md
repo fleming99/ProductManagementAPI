@@ -48,18 +48,18 @@ spring.datasource.password=your_password
 ## Testando a API
 Utilize o Postman para testar os endpoints da API.
 
-Endpoints:
+### Endpoints:
 
-Product
-POST /products: Adicionar um novo produto.
-GET /products/{id}: Buscar um produto pelo ID.
-GET /products: Listar todos os produtos.
-PUT /products/{id}: Atualizar um produto existente.
-DELETE /products/{id}: Remover um produto.
+### Product:
+- **POST** /products: Adicionar um novo produto.
+- **GET** /products/{id}: Buscar um produto pelo ID.
+- **GET** /products: Listar todos os produtos.
+- **PUT** /products/{id}: Atualizar um produto existente.
+- **DELETE** /products/{id}: Remover um produto.
 
-Category
-POST /categories: Adicionar uma nova categoria.
-GET /categories/{id}: Buscar uma categoria pelo ID.
-GET /categories: Listar todas as categorias.
-PUT /categories/{id}: Atualizar uma categoria existente.
-DELETE /categories/{id}: Remover uma categoria.
+### Category:
+- **POST** /categories: Adicionar uma nova categoria.
+- **GET** /categories/{id}: Buscar uma categoria pelo ID.
+- **GET** /categories: Listar todas as categorias.
+- **PUT** /categories/{id}: Atualizar uma categoria existente.
+- **DELETE** /categories/{id}: Remover uma categoria.
